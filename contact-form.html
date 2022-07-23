@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Contact Me</title>
+  </head>
+  <article>
+    <body>
+        <nav class="navbar">
+            <div class="navbar-container container">
+                <input type="checkbox" name="" id="">
+                <div class="hamburger-lines">
+                    <span class="line line1"></span>
+                    <span class="line line2"></span>
+                    <span class="line line3"></span>
+                </div>
+                <ul class="menu-items">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="catagory-1.html">Male</a></li>
+                    <li><a href="catagory-2.html">Female</a></li>
+                </ul>
+                <h1 class="logo"><a href="index.html">HLA</a></h1>
+            </div>
+        </nav>
+    </body>
+        <head>
+            <title>Hua Lam Anh</title>
+            <meta charset="utf-8" />
+            <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+            <link rel="stylesheet" href="/navbar.css" />
+        </head>
+  <body>
+    <link rel="stylesheet" href="contact-form.css">
+    <h2 class="contact">Contact Me</h2>
+    <form onsubmit="return false;" method="post" action="exercise1.html" enctype="multipart/form-data">
+      <div class="form-row">
+        <div class="form-label">
+          <label for="purpose">Purpose of contact</label>
+        </div>
+        <div class="purpose-of-contact">
+          <select id="purpose" name="purpose">
+            <option value="business">I Want To Buy Books</option>
+            <option value="personal">I Want To Sell Books</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="form-row">
+        <div class="form-label">
+          <label for="name">Your name</label>
+        </div>
+        <div class="form-field">
+          <input required id="name" type="text" placeholder="name" maxlength="50">
+        </div>
+      </div>
+
+      <div class="form-row">
+        <div class="form-label">
+          <label for="email">Your email</label>
+        </div>
+        <div class="form-field">
+          <input required id="email" placeholder="email" name="email">
+        </div>
+      </div>
+
+      <div class="form-row">
+        <div class="form-label">
+          <label for="phone">Your phone</label>
+        </div>
+        <div class="form-field">
+          <input required id="phone" type="tel" name="phone" pattern="[0-9]{9,13}" placeholder="Enter 9 to 13 digits">
+        </div>
+      </div>
+
+      <div class="form-row">
+        <div class="form-label">
+          <label>Preferred contact method</label>
+        </div>
+        <div class="radio-button">
+          <ul>
+            <li>
+              <input type="radio" id="contact_email" name="contact_method" value="email">
+              <label for="contact_email">Email</label>
+            </li>
+            <li>
+              <input type="radio" id="contact_phone" name="contact_method" value="phone">
+              <label for="contact_phone">Phone</label>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="form-row">
+        <div class="form-label">
+          <label>Do you want to receive our weekly newsletter</label>
+        </div>
+        <div class="radio-button">
+          <ul>
+            <li>
+              <input type="radio" id="Yes" name="Yes" value="Yes" checked>
+              <label for="Yes">Yes</label>
+            </li>
+            <li>
+              <input type="radio" id="No" name="Yes" value="No">
+              <label for="No">No</label>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="form-row">
+        <div class="form-label">
+          <label for="message">Your message</label>
+        </div>
+        <div class="form-field">
+          <textarea cols="40" rows="10" required id="message" name="message" placeholder="Enter your message"></textarea>
+        </div>
+      </div>
+
+      <div class="button">
+        <input type="reset" value="   Clear   ">
+        <input type="submit" value="   Send   ">
+      </div>
+    </form>
+    <footer>
+        <nav class="navbar">
+        <link rel="stylesheet" href="footer-nav.css">
+            <div class="navbar-container container">
+                <input type="checkbox" name="" id="">
+                <div class="hamburger-lines">
+                    <span class="line line1"></span>
+                    <span class="line line2"></span>
+                    <span class="line line3"></span>
+                </div>
+                <ul class="menu-items">
+                    <li><a href="privacy.html">Privacy, Terms, Copyright</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact-form.html">Contact</a></li>
+                </ul>
+                <p class="copyright">&copy; Untitled. Design: Hua Lam Anh</a>.</p>
+            </div>
+        </nav>  
+</footer>                         
+
+  </body>
+</article>
+</html>
